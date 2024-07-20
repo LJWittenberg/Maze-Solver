@@ -22,7 +22,7 @@ class Window:
     def close(self):
         self.__running = False
 
-    def Draw_line(self, line, color="blue"):
+    def Draw_line(self, line, color="black"):
         line.Draw(self.__canvas, color)
 
 class Point:
